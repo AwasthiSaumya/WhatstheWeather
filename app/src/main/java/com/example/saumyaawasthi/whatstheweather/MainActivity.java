@@ -86,6 +86,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         city=(EditText)findViewById(R.id.editText);
         result=(TextView)findViewById(R.id.textView);
-
     }
 }
