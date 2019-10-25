@@ -72,12 +72,13 @@ public class MainActivity extends AppCompatActivity {
         enter=city.getText().toString();
         DownloadContent task = new DownloadContent();
         try {
+        
             task.execute("http://openweathermap.org/data/2.5/weather?q="+enter+"&appid=b6907d289e10d714a6e88b30761fae22");
         } catch (Exception e) {
             e.printStackTrace();
         }
         Log.i("city",enter);
-
+        //E1
     }
 
     @Override
