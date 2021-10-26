@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected String doInBackground(String... strings) {
             Log.i("URL", strings[0]);
+            //
             String result = "";
             HttpURLConnection connection = null;
             try {
